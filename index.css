@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+div#nav-icon{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #56B280;
+    
+}
+
+div#nav-icon h1{
+    font-family: 'Roboto', sans-serif, Arial;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+div#nav-about{
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    font-family: 'Roboto', sans-serif, Arial;
+    font-weight: 600;
+}
+
+div#nav-cart{
+    display: flex;
+    gap: 1.4rem;
+}
+
+section#page1{
+    background-image: url(./galery-index/bg-image.svg);
+    background-size: 100%;
+    padding: 16rem;
+    background-repeat: no-repeat;
+}
+
+div#about-page1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color:  #F7F8FACC;
+    gap: 3rem;
+    padding: 5rem;
+}
