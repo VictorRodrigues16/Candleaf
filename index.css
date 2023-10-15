@@ -46,6 +46,10 @@ div#nav-cart{
     gap: 1.4rem;
 }
 
+img#cart{
+    padding-top: 0.4rem;
+}
+
 section#main{
     background-image: url(./galery-index/bg-image.svg);
     background-size: 100%;
