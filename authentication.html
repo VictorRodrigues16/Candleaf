@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./authentication.css">
+</head>
+<body>
+    <main>
+        <nav>
+            <div id="nav-icon">
+                <img src="./authentication-galery/icon-auth.svg" alt="">
+                <h1>Candleaf</h1>
+            </div>
+        </nav>
+        <div id="steps">
+            <p class="step-item" id="step-item-cart">Cart</p>
+            <img src="authentication-galery/ChevronRight.svg">
+            <p class="step-item"  id="step-item-details">Details</p>
+            <img src="authentication-galery/ChevronRight.svg">
+            <p class="step-item" id="step-item-shipping">Shipping</p>
+            <img src="authentication-galery/ChevronRight.svg">
+            <p class="step-item"  id="step-item-payment">Payment</p>
+        </div>
+        <section id="contact">
+            <div id="contact-title-and-login">
+                <h2>Contact</h2>
+                <span id="login">
+                    <p id="account-question">Do you have an account?</p>
+                    <p id="account-login">Login</p>
+                </span>
+            </div>
+            <input type="text" name="user-contact" class="user-text-input" id="user-contact-input" placeholder="Email or mobile phone number">
+            <div id="newsletter-discount">
+                <input type="checkbox" name="newsletter-discount-checkbox">
+                <p id="newsletter-discount-description">Add me to Candleaf newsletter for a 10% discount</p>
+            </div>
+        </section>
+        <section id="shipping-address-info">
+            <h2>Shipping Address</h2>
+            <div id="user-name">
+                <input type="text" name="user-name" class="user-text-input" id="user-name-item" placeholder="Name">
+                <input type="text" name="user-second-name" class="user-text-input" id="user-name-item" placeholder="Second Name">
+            </div>
+            <input type="text" name="user-address" class="user-text-input" placeholder="Address and number">
+            <input type="text" name="user-shipping-note" class="user-text-input" placeholder="Shipping note (optional)">
+            <div id="user-location-info">
+                <input type="text" name="user-city" class="user-text-input" id="smaller-input-text" placeholder="City">
+                <input type="text" name="user-postal-code" class="user-text-input" id="smaller-input-text" placeholder="Postal Code">
+                <select  name="provinces-select-list" id="provinces-select-list" class="user-select-input">
+                    <option value="">Province</option>
+                    <option value="opcao1">Opção 1</option>
+                    <option value="opcao2">Opção 2</option>
+                    <option value="opcao3">Opção 3</option>
+                </select>
+                <label for="provinces-select-list" id="provinces-select-list-label">Province</label>
+            </div>
+            <div id="countries-select-list-container">
+                <select name="countries-select-list" id="countries-select-list" class="user-select-input">
+                    <option value="">Italy</option>
+                    <option value="opcao1">Opção 1</option>
+                    <option value="opcao2">Opção 2</option>
+                    <option value="opcao3">Opção 3</option>
+                </select>
+                <label for="countries-select-list" id="countries-select-list-label">Country/Region</label>
+                <div id="save-informations">
+                    <input type="checkbox" name="save-informations-checkbox">
+                    <p id="save-informations-description">Save this information for a future fast checkout</p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <a href="./cart.html" id="back-to-cart-button">Back to cart</a>
+            <a href="./shipping.html" id="go-to-shipping-button">Go to shipping</a>
+        </footer>
+    </main>
+    <aside>
+        <section id="summary-product">
+            <div id="product-info">
+                <div id="product-image-container">
+                    <img id= "product-image" src="./authentication-galery/spiced-mint.svg">
+                    <span id="unities-number">
+                        <p>1</p>
+                    </span>
+                </div>
+                <span id="product-info-description">
+                    <p id="product-name">Spiced Mint Candleaf®</p>
+                    <p id="total-price"> $ 9.99</p>
+                </span>
+            </div>
+            <div id="coupon">
+                <input type="text" name="coupon-code" class="user-text-input" id="medium-input-text" placeholder="Coupon code">
+                <p id="add-code-button">Add code</p>
+            </div>
+            <div id="price-sum">
+                <div id="subtotal-container">
+                    <p class="price-text">Subtotal</p>
+                    <p id="subtotal-value">$ 9.99</p>
+                </div>
+                <div id="shipping-container">
+                    <p class="price-text">Shipping</p>
+                    <p class="price-text">Calculated at the next step</p>
+                </div>
+            </div>
+            <div id="total-price-container">
+                <p class="price-text">Total</p>
+                <p id="total-price-value">$ 9.99</p>
+            </div>
+        </section>
+    </aside>
+</body>
+</html>
