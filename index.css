@@ -99,7 +99,7 @@ button#one{
     font-size: 1.4rem;
     border-radius: 0.4rem;
     cursor: pointer;
-    transition: .3s;
+    transition: .5s;
 }
 
 button#one:hover{
@@ -431,3 +431,4 @@ footer{
     font-weight: 500;
     font-size: 1rem;
 }
+
