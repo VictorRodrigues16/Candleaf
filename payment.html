@@ -1,15 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="img/x-icon" href="./galery-index/shipping/icon.svg">
-    <link rel="stylesheet" href="shipping.css">
+    <link rel="stylesheet" href="payment.css">
     <title>Candleaf</title>
     
 </head>
 <body>
-    VAI TER UMA PAGINA AQUI
+  <aside id="left">
+
+    <nav>
+        <img src="./galery-index/shipping/logo.svg" alt="log">
+    </nav>
+
+    <span id="phases">
+        <p class="verde">Cart</p>
+        <i class="bi bi-chevron-right"></i>
+        <p class="verde">Details </p>    
+        <i class="bi bi-chevron-right"></i> 
+        <p class="verde">Shipping  </p>    
+        <i class="bi bi-chevron-right"></i>
+        <p class="preto"> Payment</p>
+    </span>
+
+    <section id="contact">
+        <span class="contact-infos">
+            <span>
+                <p class="cinza">Contact</p>
+                <p class="preto"> thicodigos@feriado.com</p>
+            </span>
+                <p class="verde">Edit</p>
+        </span>
+        <hr>
+        <span class="contact-infos">
+            <span>
+                <p class="cinza">Ship to</p>
+                <p class="preto"> FIAP sala, 506 - quando tiver aula</p>
+            </span>
+                <p class="verde">Edit</p>
+        </span>
+        <hr>
+        <span class="contact-infos">
+            <span>
+                <p class="cinza">Method</p>
+                <p class="preto"> Standard Shipping</p><p class="cinza"> - Free</p>
+            </span>
+                <p class="verde">Edit</p>
+        </span>
+    </section>
+
+    <section id="payment-method">
+        <h2 id="payment-method-h2">Payment Method</h2>
+        <form autocomplete="off" id="payment-form">
+            <div id="head-form">
+                <p class="verde">
+                    <i class="bi bi-credit-card-2-back-fill" id="credit-card"></i>
+                    Credit Card
+                </p>
+            </div>
+
+           <div class="input-single">
+                <input type="text" id="card-number" class="input-up">
+                <label for="card-number">Card number</label>
+                <i class="bi bi-lock-fill" id="lock"></i>
+           </div>
+           <div class="input-single">
+            <input type="text" id="holder-name" class="input-up">
+            <label for="holder-name">Holder Name</label>
+           </div>
+           <div class="down">
+                <div class="input-single">
+                <input type="text" id="expiration" class="input-down">
+                <label for="expiration">Expiration</label>
+               </div>
+               <div class="input-single">
+                <input type="text" id="cvv" class="input-down">
+                <label for="cvv">CVV</label>
+               </div>
+           </div>
+        </form>
+    </section>
+
+    <section id="tax-informations">
+        <h2 class="title2">Tax information</h2>
+        <div class="input-single">
+            <input type="text" id="card-number" class="input-tax">
+            <label for="card-number">VAT number(optional)</label>
+       </div>
+       <div class="input-single">
+        <input type="text" id="card-number" class="input-tax">
+        <label for="card-number">PEC(optional)</label>
+   </div>
+    </section>
+
+    <section id="biling-address">
+        <h2 class="title2">Billing Adress</h2>
+        <div id="check-box">
+            <span id="geral">
+                <span>
+                    <img src="./galery-index/round-checkbox.svg" alt="checkbox">
+                    <p class="preto" id="linha">Same as the shipping address</p>
+                </span>
+                <span>
+                    <img src="./galery-index/shipping/97ddd05d-2851-47bc-846c-328c06105a40.png" alt="checkbox" id="check-box">
+                    <p class="preto">Same as the shipping address</p>
+                </span>
+            </span>
+            
+            
+            
+        </div>
+    </section>
+
+    <section id="buttons">
+        <button class="btn-1">
+            <a href="./shipping.html">
+                Back to shipping
+            </a>
+        </button>
+        <button class="btn-2">
+            <a href="./thanks.html">
+                Pay Now
+            </a>
+        </button>
+    </section>
+
+    
+    
+
+  </aside>
+
+  <aside id="right">
+    <section id="product-infos">
+        <img src="./galery-index/shipping/product-image.svg" alt="">
+        <span>
+            <h2 class="preto">Spiced Mint Candleaf®</h2>
+            <h2 class="verde">$9.99</h2>
+        </span>
+    </section>
+
+    <section id="code">
+        <div id="code-div">
+            <p>Cupon code</p>
+        </div>
+        <button class="btn-3">Add Code</button>
+    </section>
+
+    <section id="infos">
+        <span class="shipping-left">
+            <p>Subtotal</p>
+            <p>Shipping</p>
+        </span>
+        <span class="shipping-right">
+            <p>$9,99</p>
+            <p>Free shipping</p>
+        </span>   
+    </section>
+
+    <section id="total">
+            <p class="shipping-left">Total</p>
+            <p class="shipping-right">$9,99</p>
+    </section>
+  </aside>
 </body>
 </html>
