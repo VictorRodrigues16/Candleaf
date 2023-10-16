@@ -1,43 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600&display=swap');
 
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
 
 .navbar {
-    width: 200px;
-    height: auto;
+    width: 100%;
+    max-width: 200px;
     font-family: Roboto;
-    transform: translateX(135px);
 }
 
 .navbar-brand img {
-    width: 200px; 
+    width: 100%;
     height: auto;
 }
-
 
 .steps-container {
     display: flex;
     align-items: center;
-    transform: translateX(60px);
-    position: relative;
-    left: 120px;
-    position: absolute;
-    top: 90px;
-
 }
 
 .steps-container a.step1,
 .steps-container a.step2,
 .steps-container a.step3 {
-    color: #56B280; 
-    text-decoration: none; 
+    color: #56B280;
+    text-decoration: none;
     font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
-    line-height: 25.6px;
+    line-height: 1.6;
+    margin: 10px 0;
 }
-
 
 .step-arrow {
     width: 10px;
@@ -50,27 +47,18 @@
     color: var(--black, #272727);
     font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
-    line-height: 25.6px; 
+    line-height: 1.6;
     letter-spacing: -0.9px;
 }
 
-.step{
-    color: var(--black, #272727);
-}
-
 .content {
-    width: 50%;
-    height: auto;
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: center;
-    box-sizing: border-box;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
     padding: 20px;
     font-family: Roboto;
+    box-sizing: border-box;
 }
 
 .check {
@@ -85,7 +73,7 @@
     position: absolute;
     top: 150px;
     transform: translateX(230px);
-    }
+}
 
 .display-4 {
     color: var(--black, #272727);
@@ -147,51 +135,51 @@
 
 .butao {
     display: inline-flex;
-    padding: 8px 34px;
+    align-items: center;
+    padding: 0.5em 2em;
     align-items: flex-start;
     gap: 10px;
     border-radius: 4px;
     background: #56B280;
-    margin-left: 120px;
+    margin-left: 2em;
     text-align: center;
     font-family: Roboto;
-    font-size: 20.645px;
-    font-style: normal;
+    font-size: 1rem;
     font-weight: 500;
     line-height: normal;
-    position: fixed;
+    margin-left: 9em;
+}
 
+.butao:hover {
+    background: #4C9F6F;
 }
 
 .btn {
     color: #FFFFFF;
     text-align: center;
     font-family: Roboto;
-    font-size: 20.645px;
-    font-style: normal;
+    font-size: 1rem;
     font-weight: 500;
     line-height: normal;
     background-color: transparent;
     border: none;
-    cursor: pointer;
 }
 
 .print {
-    color: var(--green, #56B280);
+    color: #56B280;
     text-align: center;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
-    line-height: 25.6px;
+    line-height: 1.4;
     letter-spacing: -0.9px;
     text-decoration-line: underline;
-    width: 550px;
-    height: 100px;
-    flex-shrink: 0;
-    margin-top: 50px;
-    transform: translateX(-50px);
-    position: fixed;
+    margin-top: 2em;
+    cursor: pointer;
+}
+
+.print:hover {
+    color: #4C9F6F;
 }
 
 .product {
@@ -225,7 +213,7 @@
     text-align: left;
 }
 
-.bolinha{
+.bolinha {
     width: 22px;
     height: 22px;
     position: absolute;
@@ -425,11 +413,12 @@ aside {
     position: absolute;
     top: -500px;
     position: fixed;
+    width: auto;
 }
 
 main {
     float: right;
-    width: 1440px;
+    width: 80%;
     box-sizing: border-box;
     padding: 20px;
     background-color: #fff;
@@ -440,5 +429,4 @@ main {
 
 body {
     overflow-x: hidden;
-
 }
