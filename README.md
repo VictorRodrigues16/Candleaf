@@ -1,7 +1,7 @@
 <h1 align="center">:file_cabinet: Candleaf</h1>
 
 ## :memo: ilustração
- ![candleaf-desktop-_1_](https://github.com/VictorRodrigues16/Candleaf/assets/143040764/11b73c21-fe1e-43fb-9574-45a02eddf341)
+ ![candleaf-desktop-_1_](https://raw.githubusercontent.com/eduardo-sdev/Candleaf-ecommerce/main/.github/candleaf-desktop.webp)
 
 ## :memo: Descrição
 Projeto realizado para o Checkpoint da matéria Front-End 
