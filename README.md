@@ -20,7 +20,7 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
 ou
 <br>
 
- <a href="https://github.com/educf-code">
+ <a href="">
     Visite o site
 </a>
 
