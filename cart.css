@@ -269,3 +269,12 @@ div#img-footer{
     padding: 1rem;
 }
 /* footer style end*/
+
+#rights-reserved{
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif, Arial;
+    color: #5E6E89;
+    font-weight: 500;
+    font-size: 1rem;
+}
