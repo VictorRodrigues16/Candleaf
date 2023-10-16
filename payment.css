@@ -20,7 +20,9 @@ aside#left {
 nav{
     padding: 1.5rem 10rem;
 }
-
+a#details:visited{
+    color:#56B280
+}
 span#phases{
     display: flex;
     padding: .5rem 10rem;
@@ -199,6 +201,9 @@ section#buttons{
     font-size: 1rem;
     color: #56B280;
 }
+.btn-1:visited{
+    color:#F2F2F2
+}
 
 
 .btn-2 {
@@ -224,13 +229,22 @@ section#buttons{
 }
 
 a{
-  text-decoration: none
+    text-decoration: none;
 }
-a:visited {
-    color: #F2F2F2;
-  }
 
+a#btn1{
+    color: #56B280;
+}
+a#btn1:visited{
+    color: #56B280;
+}
 
+a#btn2{
+    color:#f2f2f2;
+}
+a#btn2:visited{
+    color: #f2f2f2;
+}
 
 
 
