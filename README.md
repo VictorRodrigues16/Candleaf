@@ -20,7 +20,7 @@ Para rodar o repositório é necessário clonar o mesmo, dar o seguinte comando 
 ou
 <br>
 
- <a href="https://github.com/educf-code">
+ <a href="https://victorrodrigues16.github.io/Candleaf/index.html">
     Visite o site
 </a>
 
